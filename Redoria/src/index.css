@@ -1,0 +1,45 @@
+@import "tailwindcss";  /* Add this import statement for the Tailwind CSS plugin */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-lora {
+    font-family: 'Lora', serif;
+  }
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .font-raleway {
+    font-family: 'Raleway', sans-serif;
+  }
+  .font-marcellus {
+    font-family: 'Marcellus', serif;
+  }
+  .font-quicksand {
+    font-family: 'Quicksand', sans-serif;
+  }
+  .font-garamond {
+    font-family: 'EB Garamond', serif;
+  }
+  .font-opensans {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .font-alice {
+    font-family: 'Alice', serif;
+  }
+  .font-josefin {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-vibes {
+    font-family: 'Great Vibes', cursive;
+  }
+  .font-uncial {
+    font-family: 'Uncial Antiqua', cursive;
+  }
+  
