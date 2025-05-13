@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import Cover from "./assets/videos/cover3.mp4"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBook, faBookOpenReader } from '@fortawesome/free-solid-svg-icons'
+import BooksCarousel from './components/BooksCarousel'
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -27,7 +30,7 @@ function App() {
         onClick={toggleMenu}
         className="fixed top-4 right-4 z-30 text-black hover:text-white text-3xl bg-transparent px-3 py-1 rounded transition cursor-pointer"
       >
-        {menuOpen ? '✕' : '☰'}
+        {menuOpen ? <FontAwesomeIcon icon={faBookOpenReader} /> : <FontAwesomeIcon icon={faBook} />}
       </button>
 
       {/* Full-Screen Overlay Menu with Fade Animation */}
