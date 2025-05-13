@@ -31,7 +31,7 @@ const BooksCarousel = () => {
     }
 
   return (
-    <div className='flex items-center flex-col justify-center bg:black h-screen'>
+    <div className='flex items-center flex-col justify-center bg-black h-screen'>
         {images.map((image,index) =>(
             <motion.img
                 key={index}
